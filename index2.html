@@ -1,0 +1,889 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="cs2/style.css">
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>タグ　練習</title>
+ <meta name="keywords" content="british,type face,font,fonts,highway,highways">
+</head>
+
+<body>
+  <div id="wrapper">
+  /*article*/
+  <article>
+  <h2><a href= "entry99.html">海釣り</a></h2>
+  <p>今日は海釣りに出掛けた…</p>
+  <article>
+  <h2>コメント</h2>
+  <p>いいですね…</p>
+  </article>
+  </article>
+
+  <article>
+  <h2><a href= "entry98.html">ドライブ</a></h2>
+  <p>今日はドライブに行った…</p>
+  <article>
+  <h2>コメント</h2>
+  <p>はじめまして太郎さん…</p>
+  </article>
+  </article>
+
+/*section*/
+  <section>
+<h1>モバイルインターネット</h1>
+<p>スマートフォン・スマートパッドの普及により、モバイルによる利用が増加しそうです。</p>
+</section>
+
+/*nav*/
+<nav>
+  <h1>メインメニュー</h1>
+  <ul>
+    <li><a href="/">ブログ</a>
+    <li><a href="/menu">メニュー</a>
+    <li><a href="/about/"> 店舗情報</a>
+    <li><a href="/contact/">お問い合わせ</a>
+  </ul>
+</nav>
+/*字の大きさ*/
+/*h1*/<h1>こんにちは</h1>
+/*h2*/<h2>こんにちは</h2>
+/*h3*/<h3>こんにちは</h3>
+/*h4*/<h4>こんにちは</h4>
+/*h5*/<h5>こんにちは</h5>
+/*h6*/<h6>こんにちは</h6>
+/*header*/
+<header>
+    <h1>カフェラテとカプチーノの違い</h1>
+    <p><time datetime="2015-04-03T10:30:42+09:00">公開日：2015年04月03日</time></p>
+  </header>
+
+  /*footer*/
+  <footer>
+  <address>
+    このサイトに関するお問い合わせ先：
+    <a href="mailto:dekirunet@example.com">できるネット編集部</a>
+  </address>
+  <p><small>&copy; copyright 2015 Dekirunet Corp.</small></p>
+</footer>
+
+/*address*/
+<address>
+   本プレスリリースに関するお問い合わせ先：
+   <a href="mailto:impress@example.com">日本太郎</a>
+   </address>
+
+   /*p*/
+   <p>当店のメニューには、カフェラテとカプチーノがあります。</p>
+
+
+   /*hr* 段落ごとにわける/
+   <p>吾輩は猫である。名前はまだ無い。</p>
+<p>どこで生れたかとんと見当がつかぬ。
+何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。</p>
+<hr>
+<p>吾輩はここで始めて人間というものを見た。
+しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。
+この書生というのは時々我々を捕えて煮て食うという話である。</p>
+<p>しかしその当時は何という考もなかったから別段恐しいとも思わなかった。
+ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。</p>
+
+/*pre 入力した空白や改行がそのまま入力される*//
+<pre>
+  <code class="language-javascript">
+  $(function(){
+    $('#menuButton').click(function(){
+    $('#menu').toggle('fast');
+    });
+  });
+  </code>
+</pre>
+
+/*blockquote* 引用元がWeb上に公開された文書であれば、そのURLを値として使用できます/
+<blockquote cite="urn:isbn:4041001013">
+  <p>
+  吾輩は猫である。名前はまだない。
+  </p>
+  <p>
+  どこで生まれたかとんと見当がつかぬ。なんでも薄暗い...
+  </p>
+</blockquote>
+
+/* ol 序列リストを表します ul リストをあらわします。*/
+<ol>
+  <li>カップの底にエスプレッソを注ぎます。</li>
+  <li>スチームドミルクを加えます。</li>
+  <li>フォームドミルクを加えます。</li>
+</ol>
+<*/ul 順不同リストをあらわします。*/
+<ol>
+  <ul>カップの底にエスプレッソを注ぎます。</ul>
+  <ul>スチームドミルクを加えます。</ul>
+  <ul>フォームドミルクを加えます。</ul>
+</ol>
+
+</* dl dt dd 語句と説明文を含む定義リストを作成する /
+<dl>
+  <dt>カフェモカ</dt>
+  <dd>
+    <p>エスプレッソにスチームミルクを混ぜ、好みでチョコレートシロップを加える。</p>
+  </dd>
+  <dt>コーヒー牛乳</dt>
+  <dd>
+    <p>牛乳にコーヒーを混ぜ、砂糖などで味付けする。</p>
+  </dd>
+</dl>
+
+/*figure figcaption 写真と説明文のまとまりをあらわす*/
+<figure>
+  <img src="pancake.jpg" alt="当店のパンケーキの写真。イチゴとベリーが添えられている。">
+  <figcaption>大樽町カフェ「はるかぜのパンケーキ」の写真。重ねられたケーキにイチゴとベリーがのっています。</figcaption>
+</figure>
+
+/*div* フローコンテンツをまとめる/
+<div lang="en" class="english-part" >
+    <p>"This is it" is there. There are those what you want to listen.</p>
+  </div>
+<p>そのまま英語にしただけだと分かりづらいので、以下のように文章を書き換えてみる。</p>
+
+/*main 記事セクションを主要なコンテンツとしてあらわす*/
+<header>
+    <h1>大樽町カフェ</h1>
+    <p>大樽町駅から徒歩3分。特製のコーヒーとパンケーキをお楽しみください。</p>
+  </header>
+  /*main*/
+  <main role="main">
+    <article>
+      <h1>特製ミックスのパンケーキ</h1>
+      <p> 当店の軽食メニューのおすすめといえば、パンケーキです。</p>
+    </article>
+  </main>
+
+  /*a リンクを設置する*/
+  <a href="/">トップページ</a>
+<br>
+
+  /*em 強調したいテキストを表す*/
+  <p>
+  私は<em>サッカー</em>が好きだ！
+</p><br><p>
+  私はサッカーが<em>好き</em>だ！
+</p>
+
+/*strong 重要なテキストをあらわします*/
+<p>
+  <strong>注意してください！</strong>間違ってダウンロードされる方が増えています。
+</p>
+
+/*細目や注釈のテキストを表す*/
+ <p><small>&copy; copyright 2013 Example Corp.</small></p>
+
+ /*s 無効なテキストを表す*/
+ <p><s>希望小売価格：1,500円（税込み）</s></p>
+
+ /*cite 作品のタイトルを表す*/
+ <p>
+ <cite>吾輩は猫である（角川文庫）</cite> 夏目漱石 著 より引用
+ </p>
+
+ /*q 語句単位での引用を表す*/
+ <p>
+  小説、<cite>我が輩は猫である</cite>は
+  <q cite="urn:isbn:4041001013">吾輩は猫である。名前はまだない。</q>の一節で始まる。
+</p>
+
+/*dfn その語句内の定義語を表す*/
+<p>
+  <dfn title="Webサイト">サイト</dfn>とは...
+</p>
+
+/*abbr 定義語の略称を表す*/
+<dl>
+  <dt><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn></dt>
+  <dd>
+    <p>Web上の文書を記述するためのマークアップ言語。</p>
+  </dd>
+</dl>
+
+/*data * 様々なデータを表す/
+<p>
+  このビルは<data value="14">十四</data>階建てです。
+  弊社はその<data value="8">八</data>階にオフィスを開設しています。
+</p>
+
+</*time 日付や時刻、経過時間などを表します*?
+<time>2015-05-24T12:34:56+9:00</time><p>
+</p>
+
+<time>1w 3d 4h 18m 3s</time>
+<time>P10DT4H18M3S</time>
+
+/*code コンピュータ言語のコードを表す*/
+<p>The <code>code</code> element represents a fragment of computer
+code.</p>
+
+/*var 変数を利用しているコードのサンプルを表す*/
+<pre>
+  <code class="language-javascript">
+    (function() {
+      var <var>po</var> = document.createElement('script');
+      <var>po</var>.type = 'text/javascript';
+      <var>po</var>.src = 'sample.js';
+      var <var>s</var> = document.getElementsByTagName('script')[0];
+      <var>s</var>.parentNode.insertBefore(<var>po</var>, <var>s</var>);
+    })();
+  </code>
+</pre>
+
+/*kdd、samp  それぞれ入力テキストと出力テキストを表す*/
+<p>
+  <kbd>1</kbd> を入力すると 「<samp><kbd>1</kbd> が選択されました</samp>」と表示されます。
+</p>
+
+/*sup、sub それぞれ上付き文字、下付き文字として表示される*/
+<p>
+  ピタゴラスの定理は次の数式で表されます。 a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
+</p>
+<p>
+  エタノールの化学式は CH<sub>3</sub>CH<sub>2</sub>OHです。
+</p>
+
+/*i 質の異なるテキストを表す*/
+<p>
+  昨日の試合は<i class="rule">オフサイド</i>が多い試合だった。
+</p>
+
+/*b 特別なテキストを表す*/
+<article>
+  <h1>昇格争いで決めた魅惑のゴール！</h1>
+  <p><b class="lead">昨日、リーグ史上に残るゴールを目前で観戦しました。</b></p>
+  <!-- 省略-->
+</article>
+
+/*u テキストをラベル付けする*/
+<p>
+  以上、説明してきたように「<u>レモン</u>市場」においては、本来的な市場原理が機能しない。
+</p>
+
+/*mark ハイライトされたテキストを表す*/
+<blockquote>
+  <p>今は昔し<mark>薔薇の乱</mark>に目に余る多くの人を幽閉したのはこの塔である。</p>
+</blockquote>
+
+/*ruby テキストにルビを振る*/
+<p>人がいなくなった工作室で<ruby>轆轤<rt>ろくろ</rt></ruby>が回っている。</p>
+<p>夕日の映える公園で<ruby>鞦韆<rp>（</rp><rt>ぶらんこ</rt><rp>）</rp></ruby>が揺れている。</p>
+
+/*rb ルビの対照を選択する  rt ルビテキストを表す　rp ルビテキストを囲む括弧を表示します*/<br>
+<ruby>
+  <rb>薔薇</rb>
+  <rp>（</rp>
+  <rt>バラ</rt>
+  <rp>）</rp>
+</ruby>
+<br>
+
+/*rtc ルビテキストの集まりを表す*/<br>
+<ruby>
+  <rb>法</rb><rb>華</rb><rb>経</rb>
+  <rtc>
+    <rt>ほ</rt> <rt>け</rt><rt>きょう</rt>
+  </rtc>
+</ruby>
+
+<br>
+/*bdi 所持方向が異なるテキストを表す*/
+ul>
+  <li>投稿者 jcranmer: 12件の投稿</li>
+  <li>投稿者 hober: 5件の投稿</li>
+  <li>投稿者 （アラビア語） : 3件の投稿</li>
+</ul>
+<ul>
+  <li> 投稿者 <bdi>jcranmer</bdi>: 12件の投稿</li>
+  <li> 投稿者 <bdi>hober</bdi>: 5件の投稿</li>
+  <li> 投稿者 <bdi>（アラビア語）</bdi>: 3件の投稿</li>
+</ul>
+
+/*bdo テキストの所持方向を指定する*/
+ul>
+  <li>投稿者 jcranmer: 12件の投稿</li>
+  <li>投稿者 hober: 5件の投稿</li>
+  <li>投稿者 （アラビア語） : 3件の投稿</li>
+</ul>
+<ul>
+  <li> 投稿者 <bdi>jcranmer</bdi>: 12件の投稿</li>
+  <li> 投稿者 <bdi>hober</bdi>: 5件の投稿</li>
+  <li> 投稿者 <bdi>（アラビア語）</bdi>: 3件の投稿</li>
+</ul>
+
+/*span フレーズをグループ化することができる*/
+<p>
+  <span class="place">渋谷駅</span>から玉川通りを西に向かうと、
+  <span class="place">道玄坂上</span>の交差点にたどり着きますが、
+  その角にコンビニエンスストア、<span class="shop">サンプルマート道玄坂上店</span>が見えてきます。
+</p>
+
+/*br 改行を表す*/
+<p>
+  〒100-8111
+  東京都
+  千代田区千代田1
+</p>
+<p>
+  〒100-8111<br>
+  東京都<br>
+  千代田区千代田1
+</p>
+
+/*wbr 折り返し可能な箇所を指定する*/
+<p>
+古代ギリシアの戯曲家アリストパネスによる<cite>女の議会</cite>には、
+"Lopadotemachoselachogaleokranioleipsanodrimhypotrim<wbr>
+matosilphioparaomelitokatakechymenokichlepikossyphophat<wbr>
+toperisteralektryonoptekephalliokigklopeleiolagoio-<wbr>
+siraiobaphetraganopterygon"という料理が登場する。
+</p>
+
+/*ins del  それぞれ下線、取り消し線が入り　追記、削除されたテキストを表す*/
+<h1>大樽町カフェProject ToDoリスト</h1>
+<ul>
+  <li>ディナープランの創出</li>
+  <li><del datetime="2015-06-14T22:05+09:00">テラスの雨天対応</del></li>
+  <li><del>チェーン展開の検討</del></li>
+  <li><ins cite="http://www.example.com">冬期、インフルエンザ対策</ins></li>
+  <li><ins datetime="2015-12-20">春の新メニュー施策</ins></li>
+</ul>
+
+/*img 画像を埋め込む*/
+<p>img src="~~">
+<br>
+  /*iframe  ほかのHTML文書を埋め込む*/
+<br>
+<br>
+
+/*embed アプリケーションやコンテンツを埋め込む*/
+<br>
+<br>
+
+/*object 埋め込まれた外部リソースを表す*/
+<br>
+<br>
+
+/*param 外部リソースが利用するパラメータを与える*/
+<br>
+<br>
+
+/*video 動画ファイルを埋め込む*/
+<br>
+<br>
+
+/*audio 音声ファイルを埋め込む*/
+<br>
+<br>
+
+/*source 選択可能なファイルを複数指定する*/
+<br>
+<br>
+
+/*track テキストトラックを埋め込む*/
+<br>
+<br>
+
+/*map area クリティカルマップに関連するタグ　マップそのものを表すのと領域を表す*/
+<br>
+<br>
+
+/*alternate HTMLファイルのＵＲＬをGoogleエンジンに伝えることができます*/
+<br>
+<br>
+
+/*author 文書の著作者の名前を記述するために指定します*/
+<br>
+<br>
+
+/*リンクタイプ*/
+<ol>
+<li>"icon"　     サイトのアイコンを指定します</li>
+<li>"alternate"　RSSやAtom配信のときに自動で通知を受け取ることができる</li>
+<li>"archives"　 関連するサイトとしてhref属性の中に指定できます</li>
+<li>"author"     このページを作った人のサイトを指定します</li>
+<li>"external"   リンク先は自サイトとは無関係ということを表す</li>
+<li>"license"    ダウンローさせるデータを指定することが多い</li>
+<li>"tag"        このリンクはタグですよという指定をすることができる</li>
+<li>"nofollow"   指定されたページは承認されていません</li>
+<li>"noreferrer" リンクに飛んでもリファラーをつけてはいけません</li>
+<li>"pingback"   ピンを受け取るサーバーがあればそれを指定</li>
+</ol>
+
+/*table 表組みを表す
+　caption 表組みのタイトルを表す
+  tr 表組みの行を表す
+  td 表組みのセルを表す
+  */
+  <table border="1">
+  <caption>大樽町 生産年齢人口</caption>
+  <tr>
+    <td rowspan="2">年代</td><td colspan="3">人口</td>
+  </tr>
+  <tr>
+    <td>男性</td><td>女性</td><td>合計</td>
+  </tr>
+  <tr>
+    <td>15歳-24歳</td><td>1,998</td><td>1,880</td><td>3,878</td>
+  </tr>
+  <tr>
+    <td>25歳-34歳</td><td>2,959</td><td>2,977</td><td>5,936</td>
+  </tr>
+  <tr>
+    <td>35歳-44歳</td><td>4,188</td><td>3,796</td><td>7,984</td>
+  </tr>
+  <tr>
+    <td>45歳-54歳</td><td>2,254</td><td>1,985</td><td>4,239</td>
+  </tr>
+  <tr>
+    <td>55歳-64歳</td><td>2,730</td><td>2,973</td><td>5,703</td>
+  </tr>
+</table>
+
+/*th 表組みの見出しセルを表す<br>
+　tbody 行組みの本体部分の行グループを表す<br>
+  tfoot 表組みのフッター部分の行グループを現す*/
+  <br>
+  <br>
+
+  /*form フォームを表す*/
+  <form method="get" action="cgi.bin/example.cgi">
+  <input type="search" name="search" value="" placeholder="検索キーワードを入力">
+  <input type="submit" name="submit" value="検索">
+</form>
+
+/*input 入力コントロールを表示する*/
+<p>typeの種類</p>
+<ol>
+<ul>"submit"    送信ボタン
+  <form action="cgi-bin/example.cgi" method="post">
+    <p>入力した情報を送信する</p>
+    <input type="submit" name="submit">
+    <p>入力した内容を確認する</p>
+    <input type="submit" name="submit" value="入力内容の確認">
+  </form></ul>
+  <br>
+  <br>
+
+
+<ul>"image"     画像形式の送信ボタン
+  <form action="cgi-bin/example.cgi" method="post">
+    <p>入力した情報を送信する</p>
+    <input type ="image" name="submit" width="100" height="40" src="submit.png" alt=" 送信">
+  </form></ul>
+  <br>
+  <br>
+
+
+<ul>"reset"     入力内容のリセットボタン
+  <form action="cgi-bin/example.cgi" method="post">
+    <p>商品コードを入力する</p>
+    <input type="text" name="text">
+    <input type="submit" name="submit" value="送信">
+    <p>入力内容をリセットする</p>
+    <input type="reset" name="reset" value="入力内容を消去" >
+  </form></ul>
+  <br>
+  <br>
+
+
+<ul>"hidden"    閲覧者には表示しないデータ
+  <form action="cgi-bin/example.cgi" method="post">
+    <p>商品コードを入力する</p>
+    <input type="hidden" name="product-group" value="product-code">
+    <input type="text" name="text">
+    <input type="submit" name="submit" value="送信">
+    <p>入力内容をリセットする</p>
+    <input type="reset" name="reset" value="入力内容を消去" >
+  </form></ul>
+  <br>
+  <br>
+
+
+<ul>"text"      1行テキストの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>一言のご意見やご感想をお聞かせください。</p>
+  <input type="text" name="opinion" size="50" placeholder="ご意見・ご感想を入力">
+  <input type="submit" name="submit" value="送信">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"search"    検索キーワードの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>検索したいキーワードを入力してください。</p>
+  <input type="search" name="search" placeholder="キーワードを入力">
+  <input type="submit" name="submit" value="検索">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"url"       URLの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>URL：</p>
+  <input type="url" name="url" size="30" value="http://" >
+  <input type="submit" name="submit" value="送信">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"email"     メールアドレスの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>E-mail：</p>
+  <input type="email" name="email" multiple="multiple">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"password"  パスワードの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>パスワードを入力する</p>
+  <input type="password" name="password">
+  <input type="submit" name="search" value="送信">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"datetime"  日時の入力欄（タイムゾーンはUTC)<form action="cgi-bin/example.cgi" method="post">
+  <p>日時を指定する（datetime）：</p>
+  <input type="datetime" name="datetime">
+  <p>日時を指定する(datetime-local)：</p>
+  <input type="datetime-local" name="datetime">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"month"     月の入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>月を指定する：</p>
+  <input type="month" name="month">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"week"      週の入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>週を指定する：</p>
+  <input type="week" name="week">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"date"      日時の入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>日付を指定する：</p>
+  <input type="date" name="date">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"time"      時間の入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>時刻を指定する：</p>
+  <input type=" time" name="time" step="10">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"number"    数値の入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>必要な数量を指定してください（最大で9個まで）：</p>
+  <input type="number" name="number" min="1" max="9">
+  <input type="submit" name="submit" value="登録">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"range"     数値の入力欄（厳格でない大まかな数値<form action="cgi-bin/example.cgi" method="post">
+  <p>この記事の満足度をお答えください。</p>
+  <p>つまらない<input type="range" name="range">おもしろい</p>
+  <input type="submit" name="submit" value="送信">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"checkbox"  チェックボックス（複数選択可能）<form action="cgi-bin/example.cgi" method="post">
+  <p>興味のあるジャンルを選択してください。</p>
+  <label>
+    <input type="checkbox" name="books" value="history"> 歴史小説
+  </label>
+  <label>
+    <input type="checkbox" name="books" value="romance">恋愛小説
+  </label>
+  <label>
+    <input type="checkbox" name="books" value="ditective">探偵小説
+  </label>
+  <input type="submit" name="submit" value="送信">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"radio"     ラジオボタン（ひとつだけ選択可能）<form action="cgi-bin/example.cgi" method="post">
+  <p>コースの最後に食べるデザートを選択してください。</p>
+  <label>
+    <input type="radio" name="desert" value="icecream">アイスクリーム
+  </label>
+  <label>
+    <input type="radio" name="desert" value="shortcake">ショートケーキ
+  </label>
+  <label>
+    <input type="radio" name="desert" value="pudding">プリン
+  </label>
+  <input type="submit" name="submit" value="決定">
+</form></ul>
+<br>
+<br>
+
+
+<ul>"file"      送信するファイルの選択<form action="cgi-bin/example.cgi" method="post" enctype="multipart/from-data">
+  <p>投稿する画像ファイルを選択してください。</p>
+  <input type="file" name="imgfile" multiple="multiple" accept=".png,.jpg,.gif,image/png,image/jpg,image/gif">
+  <p>
+  <input type="submit" name="submit" value="投稿">
+  <input type="reset" name="reset" value="削除">
+  </p>
+</form></ul>
+<br>
+<br>
+
+
+<ul>"bottum"    スクリプト言語起動用のボタン<form action="cgi-bin/example.cgi" method="post">
+  <p>内容を更新するには［更新］ボタンをクリックします。</p>
+  <input type="button" name="refresh" value="更新" onclick="location.reload(true)"></p>
+</form></ul>
+<br>
+<br>
+
+
+<ul>"color"     RGBカラーの入力欄<form action="cgi-bin/example.cgi" method="post">
+  <p>指定したい色を選択します。</p>
+  <input type="color" name="color" value="color">
+  <input type="submit" name="submit" value="決定" >
+</form></ul>
+<br>
+<br>
+</ol>
+
+/*button ボタンを設置する*/
+<form action="cgi-bin/example.cgi" method="post">
+  <p>回答を入力：<input type="text" name="answear"></p>
+  <button type="button" name="hint" onclick="location.href='http://example.hintpage/'">
+  ボタンを押すと<strong>ヒントページ</strong>を表示
+  </button>
+  <p>
+  <input type="submit" name="submit" value="回答">
+  </p>
+</form>
+<br>
+<br>
+
+/*select プルダウンメニューを表す  option 選択肢を表す*/
+<select name="prefecture">
+  <option value="">お住まいの地域を選んでください。</option>
+  <option value=" 埼玉県">埼玉県</option>
+  <option value="千葉県">千葉県</option>
+  <option value="東京都">東京都</option>
+  <option value="神奈川県">神奈川県</option>
+</select>
+<br>
+<br>
+
+
+/*datalist 入力候補リストを表示させる*/
+<input type="text" name="area" list="arealist">
+<datalist id="arealist">
+  <option value="大阪第1エリア">大阪第1エリア</option>
+  <option value="大阪第2エリア">大阪第2エリア</option>
+  <option value="大阪第3エリア">大阪第3エリア</option>
+  <option value="京都第1エリア">京都第1エリア</option>
+  <option value="京都第2エリア">京都第2エリア</option>
+  <option value="京都第3エリア">京都第3エリア</option>
+</datalist>
+<br>
+<br>
+
+/*optgroup 選択肢のグループを表す*/
+<select name="prefecture">
+<option value="">参加地域を選択してください。</option>
+  <optgroup label="Aグループ">
+   <option value="埼玉県">埼玉県</option>
+   <option value="千葉県">千葉県</option>
+  </optgroup>
+  <optgroup label="Bグループ">
+   <option value="東京都">東京都</option>
+    <option value="神奈川県">神奈川県</option>
+   </optgroup>
+</select>
+<br>
+<br>
+
+/*textarea 複数行のテキスト入力欄が設置される*/
+<form action="cgi-bin/example.cgi" method="post">
+  <p>通信欄：</p>
+  <textarea name="comment" placeholder="感想やご意見をお聞かせください" cols="50" rows="2">
+  </textarea>
+  <input type="submit" name="submit" value="送信">
+</form>
+<br>
+<br>
+
+/*keygen 公開鍵暗号の鍵ペアを生成する*/
+<form action="cgi-bin/example.cgi" method="post">
+  <p>公開式暗号鍵の鍵ペアを発行する</p>
+  <p><keygen name="key" challenge="hoge"></p>
+  <p><input type="submit" value="発行"></p>
+</form>
+<br>
+<br>
+
+/*output 計算の出力結果を表す*/
+<form onsubmit="return false" oninput="o.value = a.valueAsNumber + b.valueAsNumber">
+  <p>2つの整数の和を計算します。</p>
+  <input name="a" id="a" type="number"> + <input name="b" id="b" type="number"> =
+  <output name="o" id="o" for="a b"> 計算結果が出力されます。</output>
+</form>
+<br>
+<br>
+
+
+/*progress 進捗状況*/
+<p>
+  ダウンロードの進捗：<progress max="100" value="30">30%</progress>
+</p>
+<br>
+<br>
+
+/*meter 特定の範囲にある数値を表す*/
+<p>
+  地域A：<meter value="37" min="0" max="100">37%</meter>
+</p>
+<p>
+  地域B：<meter value="72" min="0" max="100">72%</meter>
+</p>
+<br>
+<br>
+
+/*fieldset 入力コントロールの内容をまとめる*/
+<fieldset>
+  <legend>お客様情報</legend>
+    <label for="name">お名前</label> <input tyle="text" name="name" id="name" value="">
+    <label for="name">ご住所</label> <input tyle="text" name="address" id="address" value="">
+</fieldset>
+<fieldset>
+  <legend>アンケート</legend>
+  <textarea rows="2" cols="45" placeholder="ご意見をお聞かせください"></textarea>
+</fieldset>
+<br>
+<br>
+
+/*legend 入力コントロールの内容グループに見出しをつける*/
+<fieldset>
+  <legend>お客様情報</legend>
+    <label for="name">お名前</label> <input tyle="text" name="name" id="name" value="">
+    <label for="name">ご住所</label> <input tyle="text" name="address" id="address" value="">
+</fieldset>
+<fieldset>
+  <legend>アンケート</legend>
+  <textarea rows="2" cols="45" placeholder="ご意見をお聞かせください"></textarea>
+</fieldset>
+<br>
+<br>
+
+/*name 要素に名前を付与することでメタデータの種類を示し、内容をcontent属性で表します*/
+<br>
+<br>
+
+/*dirname ファイルパスからディレクトリ情報を取り出す際に使用されます*/
+<br>
+<br>
+
+/*maxlength テキスト欄の上限文字数を決める*/
+<br>
+<br>
+
+/*disabled まとめられた入力コントロールでの入力・選択を無効にします。*/
+<br>
+<br>
+
+/*autofocus ウェブページが表示された際に、指定した入力欄にカーソルが当たって自動的にフォーカスされます*/
+<br>
+<br>
+
+/*script クライアントサイドスクリプトのコードを埋め込む*/
+<br>
+<br>
+
+/*noscript スクリプトが無効な環境の内容を表す*/
+<br>
+<br>
+
+/*template スクリプトが利用するHTMLの断片を定義する*/
+<table>
+  <!--省略-->
+  <tbody>
+    <template id="row">
+     <tr><td></td><td></td><td></td><td></td></tr>
+    </template>
+  </tbody>
+</table>
+
+<script>
+  var data = [
+    { 名前: '山本太郎', 出身地: '東京都', 性別: '男性', 年齢: 30 },
+    { 名前: '沢田次郎', 出身地: '長野県', 性別: '男性', 年齢: 28 },
+    { 名前: '本山三郎', 出身地: '大阪府', 性別: '男性', 年齢: 24 },
+    { 名前: '金沢富子', 出身地: '北海道', 性別: '女性', 年齢: 21 }
+  ];
+</script>
+<script>
+  var template = document.querySelector('#row');
+  for (var i = 0; i < data.length; i += 1) {
+    var cat = data[i];
+    var clone = template.content.cloneNode(true);
+    var cells = clone.querySelectorAll('td');
+    cells[0].textContent = cat.名前;
+    cells[1].textContent = cat.出身地;
+    cells[2].textContent = cat.性別;
+    cells[3].textContent = cat.年齢;
+    template.parentNode.appendChild(clone);
+  }
+</script>
+<br>
+<br>
+
+/*canvas グラフィック描写領域を提供する*/
+<head>
+  <meta charset="utf-8" />
+  <title>canvas要素 描写テスト</title>
+  <script src="script.js">
+  </script>
+</head>
+
+<body>
+  <p>緑枠線の正方形が描画されます。</p>
+  <canvas id="canvas" width="300" height="300">
+  <p><a href="greenbox.html">正方形が表示されない場合は、こちらのページをご覧ください。</a></p>
+  </canvas>
+</body>
+<br>
+<br>
+
+/**/
+</noscript>*/
+</div>
+</body>
+</html>

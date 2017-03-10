@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+height: 2000px;
+}
+#header{
+	width: auto;
+	height: 250px;
+	text-align: center;
+}
+#footer{
+	width:auto;
+	height: 250px;
+	text-align: center;
+	margin-top: 100px;
+}
+#main{
+	width: 800px;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+img .hai{
+	width: 800;
+	height: 150px;
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.box{
+	float: left;
+	width: 400px;
+}
+.mana{
+	overflow: hidden;
+}
+h1{text-align: left;
+}
+.kousoku{
+	margin-right: 20px;
+}
+.SA{
+	margin-left: 20px;
+}
+h2{
+	background-color:#EBEBEB;
+	text-align: left;
+	border-bottom: solid;
+	border-bottom-color: #FFA702;
+	border-bottom-width:2px;
+}
+.kuruma{
+	background-color:#D1D1D1;
+	text-align: left;
+}
+.kou{
+	text-align: center;
+	background-color:#6F5844;
+	padding: 10px;
+}
+.koutuu p{
+	color: white;
+	text-align: center;
+}
+.jyou{
+	text-align: left;
+	background-color:#D0D0D0;
+}
+.kousoku h4{
+	text-align: left;
+	border-bottom: dashed;
+	border-bottom-width: 1px;
+}
+.SA h4{
+	text-align: left;
+	border-bottom: dashed;
+	border-bottom-width: 1px;
+}
+.mana p{
+	text-align: left;
+}
+.light{
+	margin-right: 10px;
+}
+.left{
+	margin-left: 10px;
+}
+h5{
+	text-align: left;
+}
+a{
+	margin-right: 30px;
+	text-align: left;
+}
+.otoku{
+	text-align: left;
+	background-color:#D0D0D0;
+	margin-bottom: 40px;
+}
